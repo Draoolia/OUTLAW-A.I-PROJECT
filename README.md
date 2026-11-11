@@ -122,7 +122,7 @@ Deux réglages impossibles depuis un simple bot, et pourquoi :
 - le captcha « Panneau » (bouton qui ouvre une Activity Discord) demande une application
   enregistrée chez Discord et un hébergement HTTPS public ;
 - la « Vérification Discord » officielle exige que le serveur coche lui-même chaque membre : le
-  bot peut seulement élever le niveau de vérification du serveur, ce que fait le module DISCON.
+  bot peut seulement élever le niveau de vérification du serveur, ce que fait le module DEFCON.
 
 ### 🚨 DEFCON (`/settings` → Admin → DEFCON)
 Le niveau de danger du serveur, sur le modèle du DEFCON Americain: cinq niveaux, de 5 (calme) à 1
