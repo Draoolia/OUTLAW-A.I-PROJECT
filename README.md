@@ -73,7 +73,7 @@ Multi joueurs
 - Gemini reste disponible en second fournisseur via `GEMINI_API_KEY`
 
 ### 🌍 Multilingue (8 langues)
-FR, EN, PT (BR), ES, RU, EL (grec), IT, DE
+FR, EN, PT (BR), ES, RU, GR, IT, DE
 
 Le bot s'adapte à la langue du membre selon son rôle. Les embeds ont un bouton **Translate** ou pas selon le vouloir de l'admin
 
@@ -166,7 +166,6 @@ faire fermer les invitations par Discord.
 ## 📝 Notes
 - Le panneau `/settings` est réservé aux administrateurs
 - Les commandes sont enregistrées en global (pas de doublons)
-- La base de données est SQLite, dans `data/bot.db`
 - Les giveaways tirent automatiquement les gagnants à la fin du timer
 - Les messages transférés peuvent recevoir un bouton de traduction via `/addtranslate`
 - Les logs de messages supprimés ne peuvent afficher le contenu que si le message est encore en
