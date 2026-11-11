@@ -81,7 +81,7 @@ Le bot s'adapte à la langue du membre selon son rôle. Les embeds ont un bouton
 
 ## 📜 Logs du serveur et logs de protection
 
-Moteur de logs calqué sur RaidProtect, avec **39 types répartis en 5 familles**. Chaque type
+Moteur de logs, avec **39 types répartis en 5 familles**. Chaque type
 peut avoir son propre salon, ou suivre celui de sa famille, ou être coupé (il ne part nulle part).
 
 **Familles et types :**
@@ -113,7 +113,7 @@ peut avoir son propre salon, ou suivre celui de sa famille, ou être coupé (il 
 ## 🛡️ Protections
 
 ### 🚪 Captcha d'arrivée (`/settings` → Captcha)
-Modèle RaidProtect `/captcha`, en mode **Challenge** : à l'arrivée, le membre reçoit un rôle
+Modèle Protect `/captcha`, en mode **Challenge** : à l'arrivée, le membre reçoit un rôle
 *Non vérifié* et un code affiché dans une image. Tant qu'il ne l'a pas recopié dans le salon de
 vérification, il ne peut rien écrire ailleurs. Au bout de N essais ratés ou du délai dépassé,
 la sanction configurée s'applique.
@@ -124,13 +124,13 @@ Deux réglages impossibles depuis un simple bot, et pourquoi :
 - la « Vérification Discord » officielle exige que le serveur coche lui-même chaque membre : le
   bot peut seulement élever le niveau de vérification du serveur, ce que fait le module DISCON.
 
-### 🚨 DISCON (`/settings` → Admin → DISCON)
-Le niveau de danger du serveur, sur le modèle du DEFCON : cinq niveaux, de 5 (calme) à 1
+### 🚨 DEFCON (`/settings` → Admin → DEFCON)
+Le niveau de danger du serveur, sur le modèle du DEFCON Americain: cinq niveaux, de 5 (calme) à 1
 (catastrophe). Un clic applique d'un coup toutes les protections du niveau choisi, un second
-clic défait ce que le DISCON avait lui-même activé. **Règle de sécurité** : on ne défait que ce
+clic défait ce que le DEFCON avait lui-même activé. **Règle de sécurité** : on ne défait que ce
 qu'on a soi-même posé. Un mode anti-raid, une fermeture des MP ou un verrouillage que l'équipe
 avait mis à la main restent en place, parce que l'état d'origine est capturé une fois, à la
-première montée, et remis tel quel. À partir du niveau 2, le DISCON impose le captcha aux
+première montée, et remis tel quel. À partir du niveau 2, le DEFCON impose le captcha aux
 arrivants en plus du mode anti-raid.
 
 ### 🍯 HoneyPot
